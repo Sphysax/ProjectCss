@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Tribute Page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="Project2.css" />
+</head>
+
+<body class="main-body">
+  <header class="site-header">
+    <nav class="navbar">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="#work" class="nav-link">Work</a></li>
+        <li class="nav-item"><a href="#resume" class="nav-link">Resume</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="content">
+    <section id="home" class="section home">
+      <h1>Welcome to My Portfolio</h1>
+      <p>Hi, I'm <strong>Sphysax</strong> — a passionate web developer.</p>
+      <video width="320" height="240" controls>
+        <source src="portfolio-intro.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <audio controls>
+        <source src="background-music.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+      </audio>
+    </section>
+
+    <section id="about" class="section about">
+      <h2>About Me</h2>
+      <p>I am a developer with a love for building beautiful and functional web pages.</p>
+    </section>
+
+    <section id="work" class="section work">
+      <h2>My Work</h2>
+      <ul>
+        <li><strong>Project One:</strong> One To One</li>
+        <li><strong>Project Two:</strong> Portfolio site creation</li>
+        <li><strong>Project Three:</strong> End of summer academy project</li>
+      </ul>
+    </section>
+
+    <section id="resume" class="section resume">
+      <h2>Resume</h2>
+      <table border="1" cellpadding="10">
+        <tr>
+          <th>Year</th>
+          <th>Position</th>
+          <th>Company</th>
+        </tr>
+        <tr>
+          <td>2024 - Present</td>
+          <td>Web Developer student</td>
+          <td>GoMyCode</td>
+        </tr>
+        <tr>
+          <td>2023 - 2024</td>
+          <td>Python student</td>
+          <td>GoMyCode</td>
+        </tr>
+      </table>
+    </section>
+
+    <section id="contact" class="section contact">
+      <h2>Contact Me</h2>
+      <form class="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <input type="submit" value="Send Message" />
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Sphysax | Portfolio</p>
+  </footer>
+
+</body>
+</html>
